@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LETHAL.HIT — Purchase</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #050505;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            background: #39ff14;
+            opacity: .08;
+            filter: blur(140px);
+            border-radius: 50%;
+        }
+
+        .box {
+            position: relative;
+            width: min(500px, 90%);
+            padding: 50px 35px;
+            text-align: center;
+            background: rgba(10, 10, 10, .9);
+            border: 1px solid rgba(57, 255, 20, .25);
+            border-radius: 20px;
+            box-shadow: 0 0 60px rgba(57, 255, 20, .08);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 900;
+            letter-spacing: 3px;
+        }
+
+        .logo span {
+            color: #39ff14;
+        }
+
+        .label {
+            margin-top: 45px;
+            color: #39ff14;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 4px;
+        }
+
+        h1 {
+            margin-top: 12px;
+            font-size: 42px;
+        }
+
+        .price {
+            margin: 25px 0 10px;
+            font-size: 48px;
+            font-weight: 900;
+        }
+
+        .price span {
+            color: #39ff14;
+        }
+
+        .description {
+            color: #777;
+            line-height: 1.7;
+            margin: 15px auto 30px;
+        }
+
+        .discord-button {
+            display: block;
+            padding: 16px;
+            border-radius: 9px;
+            background: #39ff14;
+            color: #050505;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 13px;
+            transition: .25s;
+        }
+
+        .discord-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 35px rgba(57, 255, 20, .4);
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 22px;
+            color: #666;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .back:hover {
+            color: white;
+        }
+
+        .notice {
+            margin-top: 25px;
+            color: #444;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <div class="logo">
+            LETHAL<span>.HIT</span>
+        </div>
+
+        <div class="label">
+            PREMIUM ACCESS
+        </div>
+
+        <h1>
+            Purchase
+        </h1>
+
+        <div class="price">
+            <span>1,900</span> R$
+        </div>
+
+        <p class="description">
+            Join the Lethal.Hit community on Discord
+            for purchase information and support.
+        </p>
+
+        <a
+            class="discord-button"
+            href="https://discord.gg/WKD6egFFfZ"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            JOIN DISCORD
+        </a>
+
+        <a
+            class="back"
+            href="https://lethalhit.devs.surf"
+        >
+            ← Back to Lethal.Hit
+        </a>
+
+        <div class="notice">
+            You will be redirected to Discord.
+        </div>
+
+    </div>
+
+</body>
+</html>
